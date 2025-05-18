@@ -32,7 +32,7 @@ defmodule Tunez.Music.Artist do
       attribute :biography, :string
 
       create_timestamp :inserted_at
-      create_timestamp :updated_at
+      update_timestamp :updated_at
     end
   end
 end
